@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = ''
 theme = 'kaslaanka'
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
 sitename = "Personal Blog"
 copyrights = ""
