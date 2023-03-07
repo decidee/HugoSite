@@ -5,8 +5,32 @@ theme = 'kaslaanka'
 
 [params]
 sitename = "Personal Blog"
-copyrights = "John Doe"
+copyrights = ""
 defaultList = "global"
 paginationLen = 3
-projectsURL = ""
-brief_about = "<center>Kaslaanka theme demo made with ❤️️</center>"
+projectsURL = "https://github.com/decidee/"
+
+[[params.myprojects]]
+name = "Project Habitual"
+description = "Instant Message Automation"
+url = "https://github.com/decidee/Project-Habitual"
+
+[[params.myprojects]]
+name = "Click"
+description = "Internal Workflow Automation"
+url = "https://github.com/decidee/Click"
+
+[[menu.primary]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.primary]]
+name = "Projects"
+url = "/project"
+weight = 2
+
+[[menu.primary]]
+name = "Blog"
+url = "/blog"
+weight = 3
