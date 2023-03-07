@@ -1,0 +1,12 @@
+baseURL = ''
+languageCode = 'en-us'
+title = ''
+theme = 'kaslaanka'
+
+[params]
+sitename = "Personal Blog"
+copyrights = "John Doe"
+defaultList = "global"
+paginationLen = 3
+projectsURL = ""
+brief_about = "<center>Kaslaanka theme demo made with ❤️️</center>"
